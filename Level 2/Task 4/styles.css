@@ -1,0 +1,35 @@
+/* Task 4: Interactive Button */
+#colorButton , #reset {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+#colorButton:hover , #reset:hover {
+    background-color: #0056b3;
+}
+body{
+    text-align: center;
+}
+#box{
+    background-color: #edebebfa;;
+    border-radius: 20px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    border: 2px;
+}
+.container{
+    padding: 10%;
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+    border-radius: 10px;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+}

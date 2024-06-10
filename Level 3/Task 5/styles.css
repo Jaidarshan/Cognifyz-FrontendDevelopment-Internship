@@ -1,0 +1,48 @@
+/* Task 5: API Integration */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  padding-top: 1cm;
+  background-color: #333;
+}
+
+#dataContainer {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.post h3 {
+  margin: 0 0 10px;
+  font-size: x-large;
+}
+
+p {
+  font-size: large;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.home {
+  color: #FFF;
+  background-color: #555454;
+  padding: 1cm;
+  border-radius: 10px;
+}

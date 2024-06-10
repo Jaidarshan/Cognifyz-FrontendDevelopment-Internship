@@ -1,0 +1,78 @@
+<!-- Task 6 : Form Styling and Validation -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="myForm">
+        <div class="head">
+            <h1 style="font-size: 1cm;">Welcome to My Webpage</h1>
+            <h3>This is an example form for a college application</h3>
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <span class="error" id="genderError"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error" id="phoneError"></span>
+        </div>
+        <div class="form-group">
+            <label for="branch">Preferred Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="">Select Branch</option>
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="EEE">Electrical and Electronics Engineering</option>
+                <option value="MECH">Mechanical Engineering</option>
+                <option value="BME">Biomedical Engineering</option>
+                <option value="AI-DS">Artificial Intelligence and Data Science</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+            </select>
+            <span class="error" id="branchError"></span>
+        </div>
+        <div class="form-group">
+            <label for="school">School Studied:</label>
+            <input type="text" id="school" name="school" required>
+            <span class="error" id="schoolError"></span>
+        </div>
+        <div class="form-group">
+            <label for="percent12">12th Percentage:</label>
+            <input type="number" id="percent12" name="percent12" required>
+            <span class="error" id="percent12Error"></span>
+        </div>
+        <div class="form-group">
+            <label for="percent10">10th Percentage:</label>
+            <input type="number" id="percent10" name="percent10" required>
+            <span class="error" id="percent10Error"></span>
+        </div>
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
